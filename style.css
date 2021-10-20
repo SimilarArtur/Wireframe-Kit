@@ -1,1 +1,26 @@
-!
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+}
+
+.container {
+    padding: 0 165px;
+}
+
+.list-item, .autorization, #logo {
+    display: flex;
+    align-items: center;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#logo {
+    color: #3C64B1;
+}
