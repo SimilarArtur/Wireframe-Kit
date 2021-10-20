@@ -1,5 +1,10 @@
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+header, #after-header {
+    background-color: lightgray;
 }
 
 #header {
@@ -17,10 +22,53 @@ body {
     align-items: center;
 }
 
+.list-item a {
+    padding: 0 35px;
+    color: black;
+    font-family: 'Mulish', sans-serif;
+}
+
+.list-item a:hover {
+    transition: 1s;
+    color: #3C64B1;
+}
+
+.avatar {
+    padding: 0 34px;
+}
+
 #header a {
     text-decoration: none;
 }
 
 #logo {
     color: #3C64B1;
+    font-size: 24px;
+}
+
+#avatar {
+    padding: 20px 0;
+}
+
+#settings {
+    padding-left: 20px;
+    padding-right: 24px;
+}
+
+.video video {
+    height: 512px;
+    width: 635px;
+}
+
+#about-us {
+    color: #3C64B1;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+.text_sect1 {
+    font-family: 'Mulish', sans-serif;
+}
+.text_sect1{
+    
 }
